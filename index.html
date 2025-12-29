@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>3D-Prototype Carwash Demo | MW Software</title>
+    <title>3D-Prototype Carwash Demo</title>
     <link rel="shortcut icon" href="TemplateData/mw_favicon.ico">
     <link rel="stylesheet" href="TemplateData/mw_style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=800 height=450 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1024 height=768 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -52,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/7017f78669aec3aee52124d423c71fce.loader.js";
+      var loaderUrl = buildUrl + "/9449837d6df53cba1786fc8a018cb8d2.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/311b16126699b0276d6eac76c76131b3.data",
+        dataUrl: buildUrl + "/de4cd2097430895eb3321e133aac278a.data",
         frameworkUrl: buildUrl + "/7f4481c9b29ff5b6a7d802c434d0bc62.framework.js",
-        codeUrl: buildUrl + "/9301c1c873af14936e03bb44d61c3a3b.wasm",
+        codeUrl: buildUrl + "/2eaad21ff80c570029e8c7c0d1a5061d.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "MW Software",
         productName: "3D-Prototype Carwash Demo",
@@ -104,8 +104,8 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "800px";
-        canvas.style.height = "450px";
+        canvas.style.width = "1024px";
+        canvas.style.height = "768px";
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
